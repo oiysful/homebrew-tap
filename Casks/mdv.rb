@@ -1,6 +1,6 @@
 cask "mdv" do
-  version "1.0.2"
-  sha256 "0dedacb37e393581096a2bd408b338c8515973e910d7d0bfed7ad51a676828a1"
+  version "1.1.0"
+  sha256 "f1e7fdf1f154dfe9fcfeccdddd3fdd742815d0cc6759bb08491b8f692131af43"
 
   url "https://github.com/oiysful/MDV/releases/download/v#{version}/MDV-#{version}-arm64-mac.zip"
   name "MDV"
