@@ -8,13 +8,14 @@ cask "mdv" do
   homepage "https://github.com/oiysful/MDV"
 
   depends_on arch: :arm64
+  depends_on :macos
 
   app "MDV.app"
 
   postflight do
     system_command "/usr/bin/xattr",
-                    args: ["-dr", "com.apple.quarantine", "#{appdir}/MDV.app"],
-                    sudo: false
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/MDV.app"],
+                   sudo: false
   end
 
   caveats do
