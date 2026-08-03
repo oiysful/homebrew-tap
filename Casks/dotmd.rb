@@ -1,6 +1,6 @@
 cask "dotmd" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000000000000000"
+  version "0.1.0"
+  sha256 "07ab88cab0ebc2e8a595735af1db1b254292e384ce538f8f8c20f0d1db251b2f"
 
   url "https://github.com/oiysful/dotmd/releases/download/v#{version}/DotMD-#{version}-arm64-mac.zip"
   name "DotMD"
