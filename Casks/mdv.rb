@@ -8,7 +8,7 @@ cask "mdv" do
   homepage "https://github.com/oiysful/MDV"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "MDV.app"
 
